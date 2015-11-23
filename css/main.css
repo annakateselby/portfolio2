@@ -1,0 +1,272 @@
+html, body {
+  margin:0;
+}
+
+
+body {
+  font-family: 'Varela Round', 'sans-serif';
+  background-color: #ffffff;
+}
+
+.navbar-brand {
+    font-family: 'Yellowtail', 'sans-serif';
+}
+
+
+
+.jumbotron {
+    background-image: url("/Users/akselby/tts/homework/front_end_hw/portfolio/images/img_03.png");
+    padding: 0.5em 0.6em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: -40px;
+    padding-bottom: 40px;
+    background-attachment: fixed;
+    background-position:  center -138px;
+}
+
+.jumbotron h1 {
+  font-family: 'Yellowtail', 'sans-serif';
+  text-align: center;
+  padding-top: 200px;
+  left:100px;
+  top:150px;
+  color: #F7FAFE;
+}
+
+
+.jumbotron p {
+  text-align: center;
+  font-size: 1.25em;
+  padding-top: -175px;
+  left:100px;
+  top:150px;
+  color: #F7FAFE;
+}
+
+/*
+
+DIVIDERS
+
+*/
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  min-height: 80vh;
+}
+.or-divider{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.813em;
+  margin: 0 1em;
+}
+.or-divider.italic{
+  font-style: italic;
+}
+.or-divider::before{
+  content: '';
+  height: .125em;
+  background: black;
+  flex: 1;
+  margin: 0 .25em 0 0;
+}
+.or-divider::after{
+  content: '';
+  height: .125em;
+  background: black;
+  flex: 1;
+  margin: 0 0 0 .25em;
+}
+.or-divider.italic::before,
+.or-divider.italic::after{
+  transform: skew(-18deg)
+}
+
+/*
+
+END
+
+*/
+
+
+/*
+
+LEARN MORE
+
+*/
+
+
+body
+{
+	padding: 50px;
+}
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+  position: absolute;
+	padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: left;
+	border-radius: 10px;
+	font-size: 25px;
+	color: #FFF;
+	text-decoration: none;
+  display: flex;
+  margin: 60px auto;
+}
+
+.blue
+{
+	background-color: #d5df22;
+  text-align: center;
+  font-size: 0.813em;
+  margin: 0 auto;
+  border-radius: 3px;
+
+}
+
+a:hover {
+	color: #2D2D2D;
+	background-color: #fff;
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+
+END
+
+*/
+
+
+.intro {
+  text-align: center;
+  left:100px;
+  top:150px;
+  color: #F7FAFE;
+  font-size: 14px;
+}
+
+
+/*
+about 1
+*/
+body
+{
+  padding: 30px;
+  background-color: #fcfcfc;
+}
+
+.center-div {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 700px;
+  height: 100px;
+  border-radius: 3px;
+}
+
+
+
+/* work */
+
+.features {
+  padding: 5% 0;
+  border-style: none;
+}
+
+.features p {
+  text-align: center;
+  font-size: 1.2em;
+  padding-top: 10px;
+  color: #323232;
+}
+
+.features img {
+  border-style: none;
+}
+
+.features about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/*
+contact form
+*/
+
+.sec-contact .form-control:focus {
+  border-color: $red;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075),0 0 8px rgba(173, 0, 0, .6);
+}
+.sec-contact .btn {
+  background: #000;
+  color: #fff;
+  @extend %transition;
+  &:hover,
+  &:focus {
+    background: $red;
+    border-color: darken($red, 10%);
+  }
+}
+
+
+
+
+
+/* footer */
+
+img.img-responsive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  background-color: #d5df22;
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  padding: 2%;
+  float: right;
+}
+footer p {
+  float: left;
+  padding: 2%;
+}
+footer a, footer p {
+  color: #fff;
+  vertical-align: middle;
+}
